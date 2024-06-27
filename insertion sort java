@@ -1,0 +1,34 @@
+import java.util.*;
+class text
+{
+static void insertion sort(int a[],int)
+{
+for(int i=1;i<n;i++)
+{
+int j=i;
+while(j>0 && a[j]<a[j-1])
+{
+int t=a[j];
+a[j]=a[j-1];
+a[j-1]=t;
+j--;
+public static void main(string[] args)
+{
+Scanner s=new Scanner(system.in);
+int n=s.nextInt();
+int a[]=new int[n];
+for(int i=0;i<n;i++)
+{
+a[i]=s.nextInt();
+}
+Array.sort(a);
+for(int i=0;i<n/2;i++)
+{
+System.out.print(a[n-1-i]+" "+a[i]+" ");
+}
+if(n%2==1)
+{
+System.out.print(a[n/2]);
+}
+}
+}
